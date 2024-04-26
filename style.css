@@ -1,0 +1,168 @@
+/* style for menu */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    background-color: #4e4e4e;
+}
+
+header {
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.container-header {
+    max-width: 100rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.logo img {
+    width: 8rem;
+    padding: 5px;
+}
+
+.butao-bt {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.butao-bt:hover {
+    color: #0d4070;
+    border: 2px solid #133250;
+}
+
+menu {
+
+    background-color: #133250;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: #91c6f7;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #133250;
+}
+
+.submenu1 {
+    top: 1px;
+    left: 124px;
+}
+
+nav ul ul li {
+    display: block;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+.icone {
+    background: #91c6f7;
+}
+
+.img-apresent {
+    width: 100%;
+    height: 700px;
+    background-image: url('image/CHI_0033.JPG');
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    background-color: #f7f7f7;
+
+}
+
+.fa-principal {
+    width: 1970px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: block;
+}
+
+.fa-postagem {
+    width: 1400px;
+    float: left;
+    
+    
+}
+
+.postagem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.postagem-principal {
+
+    margin-bottom: 20px; /* Adiciona espaçamento entre as postagens */
+}
+
+.postagem-principal img {
+    width: 400px; /* Garante que as imagens ocupem toda a largura da coluna */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.postagem-principal h2 {
+    margin-top: 10px; /* Adiciona um pequeno espaçamento entre o título e o parágrafo */
+}
+
+.postagem-principal p {
+    margin-top: 10px; /* Adiciona um pequeno espaçamento entre os parágrafos */
+}
+
+
+
+hr {
+    margin: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 54vh;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #00011f;
+    color: #fff;
+}
