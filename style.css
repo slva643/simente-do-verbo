@@ -110,9 +110,13 @@ nav ul li:hover>ul {
 
 section {
     background-color: #f7f7f7;
+    display: inline-block;
 
 }
 
+p {
+    width: 50em;
+}
 .fa-principal {
     width: 1970px;
     margin: 0 auto;
@@ -123,34 +127,9 @@ section {
 .fa-postagem {
     width: 1400px;
     float: left;
+    display: block;
     
-    
 }
-
-.postagem {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.postagem-principal {
-
-    margin-bottom: 20px; /* Adiciona espaçamento entre as postagens */
-}
-
-.postagem-principal img {
-    width: 400px; /* Garante que as imagens ocupem toda a largura da coluna */
-    height: auto; /* Mantém a proporção da imagem */
-}
-
-.postagem-principal h2 {
-    margin-top: 10px; /* Adiciona um pequeno espaçamento entre o título e o parágrafo */
-}
-
-.postagem-principal p {
-    margin-top: 10px; /* Adiciona um pequeno espaçamento entre os parágrafos */
-}
-
 
 
 hr {
@@ -166,3 +145,8 @@ footer {
     background-color: #00011f;
     color: #fff;
 }
+
+
+
+
+
